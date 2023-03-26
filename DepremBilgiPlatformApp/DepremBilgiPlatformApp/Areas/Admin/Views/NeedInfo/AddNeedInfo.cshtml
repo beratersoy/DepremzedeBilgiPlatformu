@@ -1,0 +1,64 @@
+﻿@model EntityLayer.Concrete.NeedInfo
+@{
+    ViewData["Title"] = "AddNeedInfo";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>İhtiyaç Bilgilerini Ekle</h1>
+@using (Html.BeginForm("AddNeedInfo", "NeedInfo", FormMethod.Post))
+{
+    @Html.Label("Depremzede No")
+    @Html.TextBoxFor(x => x.GuestId, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.GuestId)
+    <br />
+    @Html.Label("Gıda")
+    @Html.TextBoxFor(x => x.Food, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Food)
+    <br />
+    @Html.Label("LCW Kart")
+    @Html.TextBoxFor(x => x.LcwCard, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.LcwCard)
+    <br />
+    @Html.Label("Yatak")
+    @Html.TextBoxFor(x => x.Bed, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Bed)
+    <br />
+    @Html.Label("Yorgan")
+    @Html.TextBoxFor(x => x.Duvet, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Duvet)
+    <br />
+    @Html.Label("Battaniye")
+    @Html.TextBoxFor(x => x.Blanket, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Blanket)
+    <br />
+    @Html.Label("Yastık")
+    @Html.TextBoxFor(x => x.Pillow, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Pillow)
+    <br />
+    @Html.Label("Yakıt")
+    @Html.TextBoxFor(x => x.Fuel, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Fuel)
+    <br />
+    @Html.Label("Nakit Yardım")
+    @Html.TextBoxFor(x => x.Cash, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Cash)
+    <br />
+    @Html.Label("Hijyen Paketi")
+    @Html.TextBoxFor(x => x.Hygiene, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Hygiene)
+    <br />
+    @Html.Label("Açıklama")
+    @Html.TextBoxFor(x => x.Description, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Description)
+    <br />
+    <br />
+    <button class="btn btn-info">İhtiyaç Bilgilerini Kaydet</button>
+    <br />
+    <br />
+
+
+
+
+
+}
+

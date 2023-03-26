@@ -1,0 +1,55 @@
+﻿@model EntityLayer.Concrete.HomeInfo
+@{
+    ViewData["Title"] = "AddHomeInfo";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<h1>Hane Bilgilerini Ekle</h1>
+@using (Html.BeginForm("AddHomeInfo", "HomeInfo", FormMethod.Post))
+{
+@Html.Label("İsim")
+@Html.TextBoxFor(x => x.Name, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Name)
+<br />
+@Html.Label("Soyisim")
+@Html.TextBoxFor(x => x.Surname, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Surname)
+<br />
+@Html.Label("TC No")
+@Html.TextBoxFor(x => x.IdentityNumber, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.IdentityNumber)
+<br />
+@Html.Label("Adres")
+@Html.TextBoxFor(x => x.Adress, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Adress)
+<br />
+@Html.Label("Misafir Sayısı")
+@Html.TextBoxFor(x => x.GuestCount, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.GuestCount)
+<br />
+@Html.Label("Tarih")
+@Html.TextBoxFor(x => x.Date, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Date)
+<br />
+@Html.Label("Tespit")
+@Html.TextBoxFor(x => x.Detaction, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Detaction)
+<br />
+@Html.Label("Telefon Numarası")
+@Html.TextBoxFor(x => x.PhoneNumber, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.PhoneNumber)
+<br />
+@Html.Label("Teslim Edilen")
+@Html.TextBoxFor(x => x.Deliver, new {@class ="form-control"})
+@Html.ValidationMessageFor(x=>x.Deliver)
+<br />
+<br />
+<button class="btn btn-info">Hane Bilgilerini Kaydet</button>
+<br />
+<br />
+
+
+
+
+
+}
+

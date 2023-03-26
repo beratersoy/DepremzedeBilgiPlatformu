@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DepremBilgiPlatformApp
+build_property.RootNamespace = DepremBilgiPlatformApp
+build_property.ProjectDir = D:\Users\portb\source\repos\DepremBilgiPlatformApp\DepremBilgiPlatformApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\portb\source\repos\DepremBilgiPlatformApp\DepremBilgiPlatformApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/AdminRol/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xcQWRkUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/AdminRol/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xcQXNzaWduUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/AdminRol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/AdminRol/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xcVXBkYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/AdminRol/UserRoleList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xcVXNlclJvbGVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/GuestInfo/AddGuestInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3Vlc3RJbmZvXEFkZEd1ZXN0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/GuestInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3Vlc3RJbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/GuestInfo/UpdateGuestInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3Vlc3RJbmZvXFVwZGF0ZUd1ZXN0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/HomeInfo/AddHomeInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUluZm9cQWRkSG9tZUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/HomeInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUluZm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/HomeInfo/UpdateHomeInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUluZm9cVXBkYXRlSG9tZUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/NeedInfo/AddNeedInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVlZEluZm9cQWRkTmVlZEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/NeedInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVlZEluZm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/NeedInfo/UpdateNeedInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVlZEluZm9cVXBkYXRlTmVlZEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/RegisterUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/portb/source/repos/DepremBilgiPlatformApp/DepremBilgiPlatformApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y40h4dybp1

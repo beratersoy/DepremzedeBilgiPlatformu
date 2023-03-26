@@ -1,0 +1,90 @@
+﻿@model EntityLayer.Concrete.GuestInfo
+
+@{
+    ViewData["Title"] = "UpdateGuestInfo";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateGuestInfo", "GuestInfo", FormMethod.Post))
+{
+ @Html.Label("Depremzede Numarası")
+@Html.TextBoxFor(x=>x.GuestId)
+<br />
+    @Html.Label("Hane Numarası")
+    @Html.TextBoxFor(x => x.HomeInfoId, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.HomeInfoId)
+    <br />
+    @Html.Label("İsim")
+    @Html.TextBoxFor(x => x.Name, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Name)
+    <br />
+    @Html.Label("Soyisim")
+    @Html.TextBoxFor(x => x.Surname, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Surname)
+    <br />
+    @Html.Label("Kişi Sayısı")
+    @Html.TextBoxFor(x => x.PersonCount, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.PersonCount)
+    <br />
+    @Html.Label("Telefon No")
+    @Html.TextBoxFor(x => x.PhoneNumber, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.PhoneNumber)
+    <br />
+    @Html.Label("Cinsiyet")
+    @Html.TextBoxFor(x => x.Gender, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Gender)
+    <br />
+    @Html.Label("Yaş")
+    @Html.TextBoxFor(x => x.Age, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Age)
+    <br />
+    @Html.Label("Kayıt Kontrol")
+    @Html.TextBoxFor(x => x.RecordControl, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.RecordControl)
+    <br />
+    @Html.Label("Kalma Durumu")
+    @Html.TextBoxFor(x => x.Stay, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Stay)
+    <br />
+    @Html.Label("Eğitim Bilgisi")
+    @Html.TextBoxFor(x => x.Education, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Education)
+    <br />
+     @Html.Label("Psikolojik Destek")
+    @Html.TextBoxFor(x => x.Phsicology, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Phsicology)
+    <br />
+     @Html.Label("İş Durumu")
+    @Html.TextBoxFor(x => x.Employment, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Employment)
+    <br />
+     @Html.Label("Meslek")
+    @Html.TextBoxFor(x => x.Job, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Job)
+    <br />
+     @Html.Label("Ehliyet")
+    @Html.TextBoxFor(x => x.License, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.License)
+    <br />
+     @Html.Label("Yabancı Dil")
+    @Html.TextBoxFor(x => x.Launguage, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Launguage)
+    <br />
+     @Html.Label("Engelli Durum")
+    @Html.TextBoxFor(x => x.Disabled, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.Disabled)
+    <br />
+     @Html.Label("Çalışma Durumu")
+    @Html.TextBoxFor(x => x.WorkingStatus, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.WorkingStatus)
+    <br />
+     @Html.Label("Alternatif İletişim No")
+    @Html.TextBoxFor(x => x.AlternativePhone, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x=>x.AlternativePhone)
+    <br />
+    <br />
+    <button class="btn btn-info">Depremzede Bilgilerini Güncelle</button>
+    <br />
+    <br />
+}
+

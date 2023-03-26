@@ -1,0 +1,129 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Körfezto - Depremzede Bilgi Platformu</title>
+
+    <link href="~/adminpanel/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/adminpanel/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="~/adminpanel/css/animate.css" rel="stylesheet">
+    <link href="~/adminpanel/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+    <div id="wrapper">
+
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <div class="dropdown profile-element">
+                                <img alt="image" class="rounded-circle" src="~/adminpanel/img/profile_small.png">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <span class="block m-t-xs font-bold">KullanıcıAdı</span>
+                                </a>
+
+                            </div>
+
+
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">Hane Halkı Listesi</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="/Admin/HomeInfo/Index/">Listele</a></li>
+                            <li><a href="/Admin/HomeInfo/AddHomeInfo/">Ekle</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-table"></i> <span class="nav-label">Depremzede Listesi</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="~/Admin/GuestInfo/Index/">Listele</a></li>
+                            <li><a href="~/Admin/GuestInfo/AddGuestInfo/">Ekle</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-shopping-cart"></i> <span class="nav-label">İhtiyaç Listesi</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="~/Admin/NeedInfo/Index/">Listele</a></li>
+                            <li><a href="~/Admin/NeedInfo/AddNeedInfo/">Ekle</a></li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="~/Admin/AdminRol/UserRoleList/"><i class="fa fa-globe"></i> <span class="nav-label">Kullanıcılar</span><span class="fa arrow"></span></a>
+                       
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                        <form role="search" class="navbar-form-custom" action="search_results.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="Ara" class="form-control" name="top-search" id="top-search">
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+
+                        <li>
+                            <a href="/Login/Index/">
+                                <i class="fa fa-sign-out"></i> Çıkış Yap
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            @RenderBody()
+            <br />
+            <div class="footer">
+                <div class="float-right">
+                    Körfez  <strong>Ticaret</strong> Odası
+                </div>
+                <div>
+                    <strong>Copyright</strong> Körfez Ticaret Odası &copy; 2023
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="~/adminpanel/js/jquery-3.1.1.min.js"></script>
+    <script src="~/adminpanel/js/popper.min.js"></script>
+    <script src="~/adminpanel/js/bootstrap.js"></script>
+    <script src="~/adminpanel/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/adminpanel/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="~/adminpanel/js/inspinia.js"></script>
+    <script src="~/adminpanel/js/plugins/pace/pace.min.js"></script>
+
+
+</body>
+
+</html>

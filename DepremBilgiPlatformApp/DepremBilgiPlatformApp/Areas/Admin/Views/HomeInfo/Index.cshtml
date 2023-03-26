@@ -1,0 +1,104 @@
+﻿@using EntityLayer.Concrete
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<EntityLayer.Concrete.HomeInfo>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>Hane Bilgi Listesi</h5>
+
+                </div>
+                <div class="ibox-content" style="">
+
+                    <div class="table-responsive">
+                        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                            <div class="html5buttons">
+                                <div class="dt-buttons btn-group">
+                                    <a class="btn btn-default buttons-copy buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="/Admin/GuestInfo/AddGuestInfo/"><span>Misafir Ekle</span></a>
+
+                                    <a class="btn btn-default buttons-excel buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="#"><span>Excel</span></a>
+                                    <a class="btn btn-default buttons-pdf buttons-html5" tabindex="0" aria-controls="DataTables_Table_0" href="#"><span>PDF</span></a>
+                                </div>
+                            </div>
+
+                            <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                                <label>
+                                    Search:
+                                    <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="DataTables_Table_0">
+                                </label>
+                            </div>
+                            <table class="table table-striped table-bordered table-hover dataTables-example dataTable" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info" role="grid">
+                                <thead>
+                                    <tr role="row">
+                                        <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending"
+                                            aria-label="Rendering engine: activate to sort column descending" style="width: 80.762px;">Hane No</th>
+                                        <th class="sorting"
+                                            tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending"
+                                            style="width: 116.812px;">Adı</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1"
+                                            aria-label="Platform(s): activate to sort column ascending" style="width: 116.812;">Soyadı</th>
+                                        <th class="sorting" tabindex="0"
+                                            aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending"
+                                            style="width: 116.812px;">TC No</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Adres</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Misafir Sayısı</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Tarih</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Tespit</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Telefon Numara</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Teslim Edilen</th>
+                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                            colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 116.812px;">Admin İD</th>
+                                    </tr>
+                                </thead>
+                                @foreach (var item in Model)
+                                {
+                                    <tbody>
+                                        <tr class="gradeA odd" role="row">
+                                            <td class="center">@item.HomeInfoId</td>
+                                            <td class="center">@item.Name</td>
+                                            <td class="center">@item.Surname</td>
+                                            <td class="center">@item.GuestCount</td>
+                                            <td class="center">@item.Adress</td>
+                                            <td class="center">@item.IdentityNumber</td>
+                                            <td class="center">@item.Date</td>
+                                            <td class="center">@item.Detaction</td>
+                                            <td class="center">@item.PhoneNumber</td>
+                                            <td class="center">@item.Deliver</td>
+                                            <td class="center">User Id</td>
+                                             <td><a href="/Admin/HomeInfo/UpdateHomeInfo/@item.HomeInfoId/" class="btn btn-warning">Düzenle</a></td>
+                                            <td>
+                                                <a href="/Admin/HomeInfo/DeleteHomeInfo/@item.HomeInfoId/" id="DeleteBtn"
+                                               onclick="    return confirm('Silmek istediğinize emin misiniz ?');" class="btn btn-danger">Sil</a>
+                                            </td>
+                                           
+                                        </tr>
+                                    </tbody>
+                                }
+
+
+                            </table>
+                            <br />
+                            @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new{page}))
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

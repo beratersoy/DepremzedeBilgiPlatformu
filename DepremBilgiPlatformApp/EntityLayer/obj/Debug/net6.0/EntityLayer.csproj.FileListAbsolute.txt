@@ -1,0 +1,14 @@
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\bin\Debug\net6.0\EntityLayer.runtimeconfig.json
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

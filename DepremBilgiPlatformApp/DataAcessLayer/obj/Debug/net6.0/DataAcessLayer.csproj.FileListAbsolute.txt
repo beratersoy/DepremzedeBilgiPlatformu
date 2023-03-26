@@ -1,0 +1,15 @@
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.csproj.AssemblyReference.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.AssemblyInfoInputs.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.AssemblyInfo.cs
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.csproj.CoreCompileInputs.cache
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\bin\Debug\net6.0\DataAcessLayer.deps.json
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\bin\Debug\net6.0\DataAcessLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\bin\Debug\net6.0\DataAcessLayer.pdb
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.csproj.CopyComplete
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\refint\DataAcessLayer.dll
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\DataAcessLayer.pdb
+D:\Users\portb\source\repos\DepremBilgiPlatformApp\DataAcessLayer\obj\Debug\net6.0\ref\DataAcessLayer.dll
